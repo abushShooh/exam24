@@ -1175,7 +1175,105 @@
           </div>
         </div>
       </section>
+      <section
+        id="contact"
+        class="bg-[image:url('./photos/3bgphone.svg')] bg-cover bg-center bg-no-repeat py-24 text-white sm:bg-[image:url('./photos/3bgtablet.svg')] sm:py-28 lg:bg-[image:url('./photos/3bgdesk.svg')] lg:py-32"
+      >
+        <div class="mx-auto grid w-full max-w-[1280px] gap-10 px-4 sm:px-6 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:items-start lg:gap-12 lg:px-10">
+          <div class="flex flex-col justify-between gap-10 pt-2 lg:min-h-[400px] lg:py-4">
+            <div>
+              <h2 class="text-[32px] font-bold tracking-tight sm:text-[44px] lg:text-[58px]">Остались вопросы?</h2>
+              <p class="mt-6 max-w-[520px] text-[18px] leading-9 text-white/90 sm:text-[20px] sm:leading-10">
+                Оставьте заявку и наша команда свяжется с вами
+              </p>
+            </div>
+
+            <div class="space-y-6">
+              <p class="text-[26px] font-semibold text-white sm:text-[30px]">Или напишите нам:</p>
+              <div class="flex flex-wrap gap-8 sm:gap-10">
+                <a href="#" class="inline-flex items-center gap-4 text-[20px] text-white transition hover:opacity-85 sm:text-[22px]">
+                  <img src="./photos/telegram.svg" alt="Telegram" class="h-16 w-16 sm:h-20 sm:w-20" loading="lazy" />
+                  <span>Telegram</span>
+                </a>
+                <a href="#" class="inline-flex items-center gap-4 text-[20px] text-white transition hover:opacity-85 sm:text-[22px]">
+                  <img src="./photos/whatsApp.svg" alt="Whatsapp" class="h-16 w-16 sm:h-20 sm:w-20" loading="lazy" />
+                  <span>Whatsapp</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <form class="rounded-[28px] bg-white px-6 py-7 text-slate-950 shadow-[0_24px_70px_rgba(15,23,42,0.16)] sm:px-8 sm:py-8 lg:px-12 lg:py-10">
+            <div class="space-y-7">
+              <label class="block">
+                <input
+                  type="text"
+                  placeholder="Имя"
+                  class="h-14 w-full border-b border-slate-200 bg-transparent text-[18px] text-slate-900 outline-none placeholder:text-slate-400"
+                />
+              </label>
+              <label class="block">
+                <input
+                  type="email"
+                  placeholder="Почта"
+                  class="h-14 w-full border-b border-slate-200 bg-transparent text-[18px] text-slate-900 outline-none placeholder:text-slate-400"
+                />
+              </label>
+              <label class="flex h-14 items-center gap-3 border-b border-slate-200">
+                <svg viewBox="0 0 20 20" class="h-5 w-5 text-sky-500" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 7l5 5 5-5" />
+                </svg>
+                <span class="text-[18px] text-slate-700">(971)</span>
+                <span class="inline-flex h-4 w-6 overflow-hidden rounded-sm ring-1 ring-slate-200">
+                  <span class="w-2 bg-[#169b62]"></span>
+                  <span class="flex-1 bg-white"></span>
+                  <span class="flex-1 bg-black"></span>
+                  <span class="flex-1 bg-[#ff0000]"></span>
+                </span>
+                <input type="tel" class="min-w-0 flex-1 bg-transparent text-[18px] text-slate-900 outline-none" />
+              </label>
+            </div>
+
+            <button
+              type="submit"
+              class="mt-8 inline-flex min-h-16 min-w-[250px] items-center justify-center rounded-[18px] bg-[#15b79e] px-8 text-[19px] font-semibold text-white shadow-[0_18px_45px_rgba(21,183,158,0.25)] transition duration-300 hover:-translate-y-0.5 hover:bg-[#12a58f] sm:min-w-[290px]"
+            >
+              Оставить заявку
+            </button>
+          </form>
+        </div>
+      </section>
     </main>
+    <footer
+      class="bg-[image:url('./photos/bgphone.svg')] bg-cover bg-center bg-no-repeat text-white sm:bg-[image:url('./photos/bgtablet.svg')] lg:bg-[image:url('./photos/bgdesk.svg')]"
+    >
+      <div class="bg-slate-950/75">
+        <div class="mx-auto grid w-full max-w-[1280px] gap-10 px-4 py-10 sm:px-6 lg:grid-cols-[auto_1fr_auto] lg:items-start lg:gap-12 lg:px-10 lg:py-12">
+          <div>
+            <a href="#top" class="text-[22px] font-extrabold tracking-wide text-white sm:text-[24px]">
+              INNOMA.<span class="text-cyan-300">VC</span>
+            </a>
+            <p class="mt-3 text-[15px] text-white/80 sm:text-[16px]">Все права защищены</p>
+          </div>
+
+          <nav class="grid gap-4 text-[18px] text-white/90 sm:grid-flow-col sm:auto-cols-max sm:gap-8 lg:justify-center lg:text-[20px]">
+            <a href="#who-we-are" class="transition hover:text-cyan-300">Кто мы?</a>
+            <a href="#services" class="transition hover:text-cyan-300">Услуги</a>
+            <a href="#accelerator" class="transition hover:text-cyan-300">Акселератор</a>
+            <a href="#events" class="transition hover:text-cyan-300">Новости</a>
+          </nav>
+
+          <div class="space-y-5 text-[16px] text-white/85 sm:text-[18px] lg:text-right">
+            <p class="max-w-[280px] leading-8 lg:ml-auto">
+              Dubai, Single Business Tower 1503, Business Bay
+            </p>
+            <a href="mailto:Sales@innoma.vc" class="inline-block border-b border-white/60 pb-1 text-white transition hover:text-cyan-300">
+              Sales@innoma.vc
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script>
       document.querySelectorAll("[data-tablist]").forEach((tablist) => {
         const highlight = tablist.querySelector("[data-tab-highlight]");
